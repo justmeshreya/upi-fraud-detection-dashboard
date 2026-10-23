@@ -1,0 +1,43 @@
+ UPI Fraud Detection & Transaction Monitoring Dashboard
+
+ Project Overview
+
+This project explores UPI transaction patterns using Python, MySQL, and Power BI. It focuses on analysing transaction behaviour, identifying potential anomalies, and presenting insights through an interactive dashboard.
+
+ Objectives
+
+- Analyse transaction amounts, timings, locations, and merchant categories.
+- Explore potential transaction anomalies using IQR and Isolation Forest.
+- Query transaction data using MySQL.
+- Visualise key metrics and transaction patterns in Power BI.
+
+ Tools & Technologies
+- Python
+- Pandas
+- MySQL
+- Power BI
+- DAX
+- Data Visualisation
+- Exploratory Data Analysis (EDA)
+
+ Dataset
+The project uses 10,000 synthetic UPI transactions. The dataset contains 300 transactions labelled as fraudulent (3%) and 9,700 labelled as legitimate.
+
+Dashboard Features
+- Total transaction and fraud-labelled transaction KPIs
+- Fraud rate analysis
+- Transaction trends by hour
+- Merchant category analysis
+- Filters for location, transaction type, and merchant category
+
+ Project Files
+The repository contains the analysis notebook, SQL queries, dashboard files, screenshots, and dataset where available.
+
+ Key Learning Outcomes
+- Data analysis and exploratory analysis
+- SQL querying and data handling
+- Anomaly exploration
+- KPI reporting and Power BI dashboard development
+
+Author
+Data Analytics Portfolio Project
